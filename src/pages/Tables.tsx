@@ -1,4 +1,6 @@
 
+import DonutChartCard from "@/components/ui/DonutChartCard"
+import LineChartCard from "@/components/ui/LineChartCard"
 import StatsCard from "@/components/ui/StatsCard"
 
 const Tables = () => {
@@ -10,6 +12,12 @@ const Tables = () => {
         <StatsCard label="Réservations du jour" value="156" change="+8%" />
         <StatsCard label="Revenu mensuel" value="45,890 €" change="+15%" />
       </div>
+      {/* charts */}
+      <div className="p-4 grid grid-cols-1 md:grid-cols-2 gap-4">
+      <LineChartCard />
+      <DonutChartCard />
+    </div>
+
     </div>
   )
 }
