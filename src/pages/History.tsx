@@ -1,4 +1,3 @@
-import React from "react"
 import { CreditCard, Landmark } from "lucide-react"
 
 const bookings = [
@@ -98,6 +97,7 @@ const History = () => {
   return (
     <div className="p-4 md:p-6 space-y-8">
         <h2 className="text-2xl">Booking History</h2>
+        <hr />
       {/* Stats Summary */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         <div className="bg-white rounded-xl p-4 shadow">
