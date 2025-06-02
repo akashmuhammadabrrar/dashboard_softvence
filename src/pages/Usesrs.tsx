@@ -1,4 +1,4 @@
-import { Pencil, Eye, X, Trash2, Filter, Plus } from "lucide-react";
+import { Pencil, Eye, X, Trash2, Plus } from "lucide-react";
 import FilterDropdown from "@/components/ui/DropdownMenu";
 
 
