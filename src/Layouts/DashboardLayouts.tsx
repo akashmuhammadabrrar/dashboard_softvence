@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom"
 import { Home, Users, History, Mail } from "lucide-react"
 import { Link } from "react-router-dom"
-import Navbar from "@/components/ui/navbar"
+// import Navbar from "@/components/ui/navbar"
 
 const menu = [
   { icon: Home, label: "Table De Board", to: "/tables" },
